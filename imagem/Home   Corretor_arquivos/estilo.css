@@ -1,0 +1,133 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header,
+section,
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+	color: brown;
+	margin:0;
+}
+
+p{
+	color: #00c;
+}
+
+ul, li{
+	border-bottom: 0;
+}
+
+header{
+	width: 100%;
+	height: 150px;
+	/*background-color: green;*/
+	margin-bottom: 0;
+}
+
+header h1{
+	margin-top: 4%;
+}
+
+header img{	
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin-right: 10%;
+}
+
+header ul li{
+	display: inline-block;
+	padding: 10px;
+	float: left;
+}
+
+header ul li img{
+	width: 20px;
+	float: left;
+	height: 20px;
+	
+}
+
+section h1{
+	background-color: yellow;
+	width: 100%;
+	text-align: center;
+}
+
+ h2, h3{
+	text-align: center;
+	color: white;
+}
+
+.dois{
+	top:93%;
+	width: 100%;
+	background-color:orange;
+}
+
+.dois h1{ 
+	margin: 0; 
+	text-align: center;
+}
+
+.dois div{
+	width: 80%;
+	height: 280px;
+	background-color: grey;
+	border-radius: 25px;
+}
+
+.dois div div{
+	float: left;
+	width: 40%;
+	height: 200px;
+	background-color: black;
+}
+
+.dois div nav{
+	float: right;
+	width: 40%;
+	height: 200px;
+	background-color: green;
+}
+
+.dois div div p{
+	position: relative;
+	width: 100%;
+}
+
+.teste p{
+	word-wrap: break-word;
+}
+
+nav img{
+	width: 100%;
+	height: 100%;
+}
+
+.tres{
+	width: 100%;
+	background-color:red;
+}
+
+.tres h1{
+	text-align: center;
+}
+
+.tres div{
+	width: 80%;
+	height: 280px;
+	border-radius: 25px;
+	background-color: grey;
+}
+
+.tres button{
+	width: 80%;
+	margin-left: 10%;
+}
